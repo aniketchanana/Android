@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "552658817666",
+    "firebase_url": "https://socialauthentication-bd25e.firebaseio.com",
+    "project_id": "socialauthentication-bd25e",
+    "storage_bucket": "socialauthentication-bd25e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552658817666:android:165ca08639abb5c1",
+        "android_client_info": {
+          "package_name": "com.aniket.socialauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552658817666-p3jj7tl17s6q960duc623jhd2q1d1ted.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aniket.socialauthentication",
+            "certificate_hash": "7f8c5c612e068ebe9b6fd3894e85d59dceaef088"
+          }
+        },
+        {
+          "client_id": "552658817666-1r5qoj26u41ce8jarano9fuqtskmbnv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCufKgqE1MXWuRtD1K30ZCT96g4SnjVS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552658817666-1r5qoj26u41ce8jarano9fuqtskmbnv7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

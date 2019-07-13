@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ECECEC"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="169dp"
+            android:layout_height="197dp"
+            android:src="@drawable/hamburger" />
+    </LinearLayout>
+    <TextView
+        android:textColor="#343434"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Yummy Burger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.1"
+            android:progressTint="#d56e0c"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/feedback"
+            android:padding="13dp"
+            android:gravity="start"
+            android:layout_width="321dp"
+            android:layout_height="131dp"
+            android:background="@drawable/shape"
+            android:hint="Please Enter yout feedback here..."/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+        <Button
+            android:id="@+id/submit"
+            android:textSize="19dp"
+            android:textColor="#fff"
+            android:text="Submit"
+            android:background="@drawable/buttonsubmit"
+            android:layout_width="321dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</LinearLayout>

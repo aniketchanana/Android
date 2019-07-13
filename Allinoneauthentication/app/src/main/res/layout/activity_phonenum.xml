@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".phonenum">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textColor="#524F4F"
+        android:text="WhatsApp will send an SMS message to verify your phone number. Enter country code and phone number"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:inputType="phone"
+        android:hint="+91"
+        android:id="@+id/code"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="193dp"
+        android:inputType="phone"
+        android:hint="Phone no."
+        android:id="@+id/phone"/>
+
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="60dp"
+        android:id="@+id/enter"
+        android:src="@drawable/arrow"/>
+
+</LinearLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:text="Carrier SMS Charge may apply"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/sendverification"/>
+
+</LinearLayout>

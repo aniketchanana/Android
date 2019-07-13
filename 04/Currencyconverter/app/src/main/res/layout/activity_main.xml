@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="5"
+    android:background="#560BDB"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Currency Converter"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+         />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_attach_money_black_24dp"></View>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <EditText
+            android:hint="Enter INR"
+            android:inputType="number"
+            android:textSize="30dp"
+            android:layout_margin="5dp"
+            android:id="@+id/query"
+            android:background="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+        <EditText
+            android:focusable="false"
+            android:hint="Result"
+            android:layout_margin="5dp"
+            android:textSize="30dp"
+            android:id="@+id/result"
+            android:background="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:layout_margin="5dp"
+            android:background="#E60F0F"
+            android:textColor="@android:color/white"
+            android:id="@+id/dollar"
+            android:text="@string/dollar"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:background="#A8840C"
+            android:id="@+id/yen"
+            android:text="@string/yen"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:background="#50BB10"
+            android:id="@+id/euro"
+            android:text="@string/euro"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_green_dark"
+            android:id="@+id/yuan"
+            android:text="@string/yuan"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:background="#C2185B"
+            android:id="@+id/lira"
+            android:text="@string/lira"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:background="#BB7B0E"
+            android:id="@+id/aus"
+            android:text="@string/aus"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

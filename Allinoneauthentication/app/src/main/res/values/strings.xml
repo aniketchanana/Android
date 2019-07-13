@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">All in one authentication</string>
+    <string name="facebook_app_id">2030668410373022</string>
+    <string name="fb_login_protocol_scheme">fb2030668410373022</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Currency converter</string>
+    <string name="dollar">dollar $</string>
+    <string name="yen">yen ¥</string>
+    <string name="euro">euro €</string>
+    <string name="yuan">yuan ¥</string>
+    <string name="lira">Lira  ₺</string>
+    <string name="aus">aus A$</string>
+</resources>

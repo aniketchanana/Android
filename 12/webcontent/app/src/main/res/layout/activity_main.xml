@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3">
+        <ImageView
+            android:id="@+id/btn1"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/chrome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/btn2"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/amazon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/btn3"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/facebook"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3">
+        <ImageView
+            android:id="@+id/btn4"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/netflix"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/btn5"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/snapchat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/btn6"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/twitter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3">
+        <ImageView
+            android:id="@+id/btn7"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/instagram"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/btn8"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/gmail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/btn9"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
