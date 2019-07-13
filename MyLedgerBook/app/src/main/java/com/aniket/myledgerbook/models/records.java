@@ -28,4 +28,8 @@ public class records {
 
     }
 
+    public String toString(){
+        return getId()+" "+getMoney() + "\n";
+    }
+
 }
